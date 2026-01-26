@@ -14,4 +14,4 @@ AUTH_USERS = [8532720894]
 # Time gap after each request (in seconds) 
 TIME_GAP = 0
 BOT_USERNAME='animeCartoonLive_bot' #bot username without@
-API_TOKEN='b7d9e1f7-12a6-4b8e-89a2-c3d124e5f6a7' #don't change this without developer permission
+API_TOKEN='65aa5be4d757fb7242fff9dde00f6cd5d4acc977' #don't change this without developer permission
