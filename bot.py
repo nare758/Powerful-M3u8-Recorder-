@@ -5,21 +5,6 @@ import os
 import re
 from utils.ffmpeg_helper import record_stream
 
-# ==================== CONFIG VARIABLES ====================
-BOT_TOKEN = "8365813233:AAHSs86QVjPPB5G_04tAdEzCRXHB_UxLaI4"
-API_ID = "29481626"                        # From my.telegram.org
-API_HASH = "4892185769903521077c4cea97808b8c"
-OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "8532720894").split("8532720894")]
-AUTH_USERS = [8532720894]                  # Authorized users
-TIME_GAP = 0                               # Seconds gap after each request
-BOT_USERNAME = "LiveRecording_Bot"         # Bot username without @
-API_TOKEN = "65aa5be4d757fb7242fff9dde00f6cd5d4acc977"  # Access token, don't change
-SHORTXLINK_URL = "https://shortx.link/abc123"  # Verification link
-MAX_DURATION = 300                           # Max recording duration in seconds
-# ==========================================================
-
-bot = telebot.TeleBot(BOT_TOKEN)
-
 # Temporary recordings folder
 os.makedirs("data/recordings", exist_ok=True)
 
@@ -27,7 +12,6 @@ os.makedirs("data/recordings", exist_ok=True)
 with open("channels.json", "r") as f:
     CHANNELS = json.load(f)
 
-# ================= /verify =================
 VERIFY_TEXT = (
     "✅ Important\n\n"
     "Group users must complete verification before using recording.\n"
