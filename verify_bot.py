@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import datetime
 
-OWNER_ID = 123456789
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+OWNER_ID = 5856009289
+BOT_TOKEN = "8191916199:AAE-ezyhTkdta-0p8I-lVSsDn8l7UdjhhY0"
 verified_users = {}
 
 @CommandHandler("verify")
