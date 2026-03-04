@@ -5,7 +5,7 @@ import datetime
 import re
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from config import OWNER_ID, BOT_TOKEN, OFFICIAL_GROUP_ID, SAVE_DIR
+from config import 5856009289, 8191916199:AAE-ezyhTkdta-0p8I-lVSsDn8l7UdjhhY0, 100372627111, SAVE_DIR
 
 os.makedirs(SAVE_DIR, exist_ok=True)
 
@@ -19,7 +19,7 @@ def owner_only(func):
         if chat.type == "private" and user.id != OWNER_ID:
             await update.message.reply_text(
                 f"👋 Hi {user.first_name}, I only work in our official group.\n"
-                f"👉 Please join: https://t.me/joinchat/{OFFICIAL_GROUP_ID}"
+                f"👉 Please join: https://t.me/+m_yCHi8Bdv02Y2Y1{-1003726271113}"
             )
             return
         # Official group only
