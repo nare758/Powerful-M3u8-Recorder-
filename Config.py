@@ -19,7 +19,7 @@ AUTH_USERS = [969084369, 2800583882]
 TIME_GAP = 0
 
 BOT_USERNAME = 'LittlesinghamMovie_Bot'  # bot username without @
-API_TOKEN = 'b7d9e1f7-12a6-4b8e-89a2-c3d124e5f6a7'  # don't change this without Ls Owner permission
+API_TOKEN = '65aa5be4d757fb7242fff9dde00f6cd5d4acc977'  # don't change this without Ls Owner permission
 
 # ✅ Group Settings Add Kiya
 GROUP_ID = -1001234567890  # Yaha apna group ID dalo (example: -100xxxxxxxxxx)
