@@ -20,7 +20,3 @@ TIME_GAP = 0
 
 BOT_USERNAME = 'LittlesinghamMovie_Bot'  # bot username without @
 API_TOKEN = '65aa5be4d757fb7242fff9dde00f6cd5d4acc977'  # don't change this without Ls Owner permission
-
-# ✅ Group Settings Add Kiya
-GROUP_ID = -1003726271113  # Yaha apna group ID dalo (example: -100xxxxxxxxxx)
-GROUP_LINK = "https://t.me/+m_yCHi8Bdv02Y2Y1"  # Yaha apna group invite link dalo
