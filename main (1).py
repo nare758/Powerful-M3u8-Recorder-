@@ -18,13 +18,6 @@ GROUP_LINK = "https://t.me/+m_yCHi8Bdv02Y2Y1"
 
 user_data = {}
 
-app = Client(
-    "RipperBot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
-)
-
 @app.on_message(filters.command(["dl", "ak"]))
 async def start_proccess(client, message):
     uid = message.from_user.id
