@@ -3,7 +3,7 @@
 import os
 
 # Bot token from @botfather
-BOT_TOKEN = "8191916199:AAH66jt4Kzjgnh5GfROzCxHkTaHgtE34rM8"
+BOT_TOKEN = "8191916199:AAFNLrNG68q9oqxbv1zXMlO6wy1o84dQ64c"
 
 # From my.telegram.org/
 API_ID = "29481626"
