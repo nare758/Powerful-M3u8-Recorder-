@@ -9,7 +9,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 # -------- CONFIG --------
 TOKEN = "8294289381:AAEKHXoJvmuQbdLXBg_Q_MTs5Yrpx554RZQ"
-OWNER_ID = 5856009289
+OWNER_ID = 8295393049
 
 # Users store
 users = {}  # {user_id: {"username": str, "verified_until": datetime}}
