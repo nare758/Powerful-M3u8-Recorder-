@@ -7,13 +7,13 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 # ================= CONFIGURATION =================
-API_ID = 29481626
-API_HASH = "4892185769903521077c4cea97808b8c"
-BOT_TOKEN = "8191916199:AAH66jt4Kzjgnh5GfROzCxHkTaHgtE34rM8"
+API_ID = 30523194
+API_HASH = "76d62e302ed767a9ea0b8586a9189ca5"
+BOT_TOKEN = "8799939627:AAF2KrqHD_03cDnnR1nH5Zjtqi5kMRR1IQY"
 
-TAG = "[ANIME CARTOON]"
+TAG = "[BLACK HEARY]"
 DEFAULT_WM = "Anime-Cartoon.kesug.com"
-GROUP_LINK = "https://t.me/+m_yCHi8Bdv02Y2Y1"
+GROUP_LINK = "https://t.me/+MRdRQSs6cCQwNzhl"
 # =================================================
 
 user_data = {}
