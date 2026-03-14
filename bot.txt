@@ -8,7 +8,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # -------- CONFIG --------
-TOKEN = "8294289381:AAEKHXoJvmuQbdLXBg_Q_MTs5Yrpx554RZQ"
+TOKEN = "8799939627:AAF2KrqHD_03cDnnR1nH5Zjtqi5kMRR1IQY"
 OWNER_ID = 8295393049
 
 # Users store
@@ -19,7 +19,7 @@ VERIFY_DURATION_HOURS = 5
 
 # API Keys for short link verification
 API_KEYS = {
-    "gplinks.com": "33c13c27af20f931c50df8c8d2ec8ed36c95968d",
+    "gplinks.com": "19bd06b3e1551bae08026756c64c6759ceed6a20",
     "shortxlinks.in": "65aa5be4d757fb7242fff9dde00f6cd5d4acc977"
 }
 
@@ -255,5 +255,5 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 # Run queue processor
 asyncio.get_event_loop().create_task(process_queue(app))
 
-print("🚀 Little Singham All-in-One Bot Running...")
+print("🚀 Black Heary All-in-One Bot Running...")
 app.run_polling()
